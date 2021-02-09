@@ -9,25 +9,20 @@ namespace MoodAnalyserTest
     {
         string message;
         /// <summary>
-        /// setting parameterised constructor with sad or happy message
+        /// parameterised constructor with sad or happy message
         /// </summary>
         /// <param name="message"></param>
-
         public MoodAnalyser(string message)
         {
             this.message = message;
         }
 
-        /// <summary>
-        /// to analyse a mood
-        /// </summary>
-        /// <returns></returns>
         public string AnalyserMethod()
         {
-            if (this.message.Contains("SAD"))
-                return "SAD";
-            else
+            if (this.message.Contains("HAPPY"))
                 return "HAPPY";
+            else
+                return "SAD";
         }
     }
 }

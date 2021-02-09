@@ -18,6 +18,10 @@ namespace MoodAnalyserTest
             this.message = message;
         }
 
+        /// <summary>
+        /// to analyse a mood
+        /// </summary>
+        /// <returns></returns>
         public string AnalyserMethod()
         {
             if (this.message.Contains("SAD"))

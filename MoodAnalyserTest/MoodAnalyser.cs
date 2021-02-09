@@ -4,23 +4,16 @@ using System.Text;
 
 namespace MoodAnalyserTest
 { 
-    
     public class MoodAnalyser
     {
         string message;
-        /// <summary>
-        /// setting parameterised constructor with sad or happy message
-        /// </summary>
-        /// <param name="message"></param>
-
         public MoodAnalyser(string message)
         {
             this.message = message;
-        }
-
-        public string AnalyserMethod()
+        }  
+        public string AnalyserMethod(string message)
         {
-            if (this.message.Contains("SAD"))
+            if (message.Contains("SAD"))
                 return "SAD";
             else
                 return "HAPPY";

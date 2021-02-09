@@ -9,7 +9,7 @@ namespace NUnitTestProject1
         [SetUp]
         public void Setup()
         {
-            moodAnalyser = new MoodAnalyser("SAD");
+            moodAnalyser = new MoodAnalyser(null);
         }
 
         /// <summary>
@@ -20,7 +20,7 @@ namespace NUnitTestProject1
         {
             string expected = "SAD";
 
-            string actual = moodAnalyser.AnalyserMethod();
+            string actual = moodAnalyser.AnalyserMethod("SAD");
             Assert.AreEqual(expected, actual);
         }
     }

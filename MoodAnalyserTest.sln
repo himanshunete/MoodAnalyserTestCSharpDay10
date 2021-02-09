@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodAnalyserTest", "MoodAnalyserTest\MoodAnalyserTest.csproj", "{40FFE2FE-097F-48D2-AC21-7C8634C083F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{18969131-9E24-4C75-9D82-E700B54DC846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40FFE2FE-097F-48D2-AC21-7C8634C083F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FFE2FE-097F-48D2-AC21-7C8634C083F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FFE2FE-097F-48D2-AC21-7C8634C083F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FFE2FE-097F-48D2-AC21-7C8634C083F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18969131-9E24-4C75-9D82-E700B54DC846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18969131-9E24-4C75-9D82-E700B54DC846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18969131-9E24-4C75-9D82-E700B54DC846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18969131-9E24-4C75-9D82-E700B54DC846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B878491-54DB-4F85-ABDE-719095FDE855}
+	EndGlobalSection
+EndGlobal

@@ -17,6 +17,7 @@ namespace MoodAnalyserTest
             this.message = message;
         }
 
+
         public string AnalyserMethod()
         {
             if (this.message.Contains("HAPPY"))

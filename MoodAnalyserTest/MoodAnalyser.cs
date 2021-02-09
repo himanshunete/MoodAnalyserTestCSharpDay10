@@ -7,13 +7,18 @@ namespace MoodAnalyserTest
     
     public class MoodAnalyser
     {
-        string message = null;
-        public string AnalyserMethod(string message)
+        string message;
+
+        public MoodAnalyser(string message)
         {
-            if (this.message.Contains("SAD"))
-                return "SAD";
-            else
+            this.message = message;
+        }
+        public string AnalyserMethod()
+        {
+            if (this.message.Contains("HAPPY"))
                 return "HAPPY";
+            else
+                return "SAD";
         }
     }
 }

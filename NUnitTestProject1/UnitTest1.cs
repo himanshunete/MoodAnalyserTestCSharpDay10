@@ -12,7 +12,6 @@ namespace NUnitTestProject1
             moodAnalyser = new MoodAnalyser("SAD");
         }
 
-
         /// <summary>
         /// Given,When,Outcome
         /// </summary>

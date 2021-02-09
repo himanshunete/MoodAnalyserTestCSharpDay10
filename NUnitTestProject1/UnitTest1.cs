@@ -24,7 +24,6 @@ namespace NUnitTestProject1
             Assert.AreEqual(expected, actual);
         }
 
-
         /// <summary>
         /// Given,When,Outcome
         /// </summary>

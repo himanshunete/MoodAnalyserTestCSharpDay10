@@ -8,7 +8,10 @@ namespace MoodAnalyserTest
     public class MoodAnalyser
     {
         string message;
-
+        /// <summary>
+        /// parameterised constructor with sad or happy message
+        /// </summary>
+        /// <param name="message"></param>
         public MoodAnalyser(string message)
         {
             this.message = message;

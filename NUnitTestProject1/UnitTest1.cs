@@ -9,7 +9,7 @@ namespace NUnitTestProject1
         [SetUp]
         public void Setup()
         {
-            moodAnalyser = new MoodAnalyser(" I am in Sad Mood ");
+            moodAnalyser = new MoodAnalyser(" I am in a Sad Mood ");
         }
 
         /// <summary>
@@ -18,6 +18,19 @@ namespace NUnitTestProject1
         [Test]
         public void Given_SadMood_Expecting_Sad_Result()
         {
+            string expected = "SAD";
+
+            string actual = moodAnalyser.AnalyserMethod();
+            Assert.AreEqual(expected, actual);
+        }
+
+        /// <summary>
+        /// Given,When,Outcome
+        /// </summary>
+        [Test]
+        public void Given_HappyMood_Expecting_Sad_Result()
+        {
+            moodAnalyser = new MoodAnalyser(" I am in a Happy Mood ");
             string expected = "SAD";
 
             string actual = moodAnalyser.AnalyserMethod();
